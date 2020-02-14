@@ -43,9 +43,9 @@ class SiswaController extends Controller
         $siswa->kelas = $request->kelas;
         $siswa->save();
 
-        // attach hobi
-        $hobi = Hobi::find($request->hobi_id);
-        $siswa->Hobi()->attach($hobi);
+        // // attach hobi
+        // $hobi = Hobi::find($request->hobi_id);
+        // $siswa->Hobi()->attach($hobi);
         return redirect()->route('daftarsiswa.index');
     }
 

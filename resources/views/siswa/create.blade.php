@@ -50,4 +50,5 @@
         $('.pilih-hobi').select2();
     });
 </script>
+{{-- https://github.com/smkassalaambandung --}}
 @endpush
